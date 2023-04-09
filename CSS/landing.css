@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 *::-webkit-scrollbar{
@@ -107,6 +110,8 @@
     background:#fdf3c2;
     display: flex;
     align-items: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
 .indicatorName{
@@ -123,6 +128,8 @@
 
 .bottom{
     border-bottom: 1px solid #fdf3c2;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .indicatorName a{
