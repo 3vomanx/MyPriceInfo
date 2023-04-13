@@ -23,8 +23,10 @@ html{
 
 .headerBar{
     width: 100%;
-    height: 22vh;
+    height: 18vh;
     background: var(--headeryellow);
+    display: flex;
+    flex-direction: column;
 }
 
 .logospace{
@@ -50,7 +52,7 @@ html{
 
 .headermenu{
     width: 100%;
-    height: 5vh;
+    height: 6vh;
     background: var(--headermenu);
     display: flex;
     align-items: center;
@@ -73,6 +75,7 @@ html{
     text-decoration: none;
     color: #fff;
     transition: all 0.2s ease;
+    font-size: 15px;
 }
 
 .menul ul a:hover{

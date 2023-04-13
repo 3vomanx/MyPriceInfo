@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+*::-webkit-scrollbar{
+    display: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root {
+    --headeryellow: #FFCA08;
+    --headermenu: #221F21;
+    --black: #000000;
+}
+
+.headerBar{
+    width: 100%;
+    height: 18vh;
+    background: var(--headeryellow);
+    display: flex;
+    flex-direction: column;
+}
+
+.logospace{
+    width: 25%;
+    height: 17vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 0 12%;
+}
+
+.logospace a{
+    font-size: 50px;
+    text-decoration: none;
+    color:var(--black);
+    font-weight: 600;
+}
+
+.logospace p{
+    font-size: 14px;
+    font-weight: 350;
+}
+
+.headermenu{
+    width: 100%;
+    height: 6vh;
+    background: var(--headermenu);
+    display: flex;
+    align-items: center;
+}
+
+.menul{
+    width: 30%;
+    margin: 0 0 0 11%;
+}
+
+.menul ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    list-style: none;
+}
+
+.menul ul a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.2s ease;
+    font-size: 15px;
+}
+
+.menul ul a:hover{
+    color: var(--headeryellow)
+}
+
+.content{
+    width: 100%;
+}
+
+.contentarea{
+    width: 70%;
+    height: 80vh;
+    margin: 0 0 0 10%;
+    background: gray;
+}
+
+.areatitle h1{
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.02cm;
+}
