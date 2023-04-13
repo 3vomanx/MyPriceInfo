@@ -89,8 +89,8 @@ html{
 .contentarea{
     width: 70%;
     height: 80vh;
-    margin: 0 0 0 10%;
-    background: gray;
+    margin: 1% 0 0 12%;
+    background: red;
 }
 
 .areatitle h1{
