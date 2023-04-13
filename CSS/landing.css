@@ -82,6 +82,17 @@ html{
     color: var(--headeryellow)
 }
 
+.marker{
+    width: 90%;
+    height: 0.3vh;
+    background: #e2bb04;
+    margin: 0 auto;
+}
+
+.menul .selected{
+    color: var(--headeryellow);
+}
+
 .list{
     width: 60%;
     height: auto;
