@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat+Alternates:wght@100;300;400;500;700;800;900&family=Montserrat:wght@600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+@media screen and (max-width:1920px){
 
 *{
     margin: 0;
@@ -21,6 +23,7 @@ html{
     --headermenu: #221F21;
     --black: #000000;
 }
+
 
 .headerBar{
     width: 100%;
@@ -240,6 +243,8 @@ td, th {
     padding: 8px;
 }
 
+}
+
 
 @media screen and (max-width: 1280px){
     .headerBar{
@@ -364,8 +369,8 @@ td, th {
         font-weight: 600;
         text-shadow: 2px 2px 10px black;
         color: #dddddd;
-        font-family: 'Passion font-family: 'Archivo Black', sans-serif;One', cursive;
-        font-weight: 700;
+        font-family: 'Ultra', serif;
+        font-weight: 100;
         }
     
     .logospace p{
