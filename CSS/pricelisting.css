@@ -142,6 +142,10 @@ html{
     padding: 10px 0;
 }
 
+.categoryitem .itemselected{
+    color: #fe5f0a;
+}
+
 .category{
     padding: 4px;
 }
@@ -154,21 +158,25 @@ html{
     list-style: none;
     margin: 0 0 0 5%;
 }
-
+    
 .categorycontainer ul li a{
     text-decoration: none;
     transition: all 0.2s ease;
+    font-weight: 500;
+    text-decoration: none;
 }
+    
+    .categorycontainer ul li a:hover{
+        color: #fe5f0a;
+        text-decoration: none;
+    }
+    
+    .categorycontainer ul li a{
+        margin: 0 0 0 4%;
+        color: rgb(51, 51, 51);
+    }
 
-.categorycontainer ul li a:hover{
-    text-decoration: underline;
-    color: #9e7f0f;
-}
 
-.categorycontainer ul li a{
-    margin: 0 0 0 4%;
-    color: rgb(51, 51, 51);
-}
 
 .categoryinfo{
     width: 72%;
@@ -339,6 +347,7 @@ td, th {
     .categoryitem .itemselected{
         color: #fe5f0a;
     }
+    
     .logospace{
         width: 25%;
         height: 17vh;
@@ -355,12 +364,8 @@ td, th {
         font-weight: 600;
         text-shadow: 2px 2px 10px black;
         color: #dddddd;
-        font-family: 'Lobster', cursive;
-        font-family: 'Montserrat', sans-serif;
-        font-family: 'Montserrat Alternates', sans-serif;
-        
-
-    }
+        font-family: 'Passion One', cursive;
+        }
     
     .logospace p{
         font-size: 14px;
