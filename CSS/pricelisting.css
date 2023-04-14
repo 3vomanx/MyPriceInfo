@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat+Alternates:wght@100;300;400;500;700;800;900&family=Montserrat:wght@600;700;800;900&display=swap');
 
 *{
     margin: 0;
@@ -95,7 +96,7 @@ html{
 
 .content{
     width: 100%;
-    height: 82vh;
+    height: 88vh;
     background: #f1f3f6;
     top: 0;
 
@@ -104,7 +105,7 @@ html{
 .contentarea{
     width: 70%;
     height: 80vh;
-    margin: 0 0 0 12%;
+    margin: 2.5% 0 0 12%;
     display: flex;
     flex-direction: column;
     gap: 2%;
@@ -186,10 +187,11 @@ html{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background: white;
+    background:#fe5f0a;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 40px;
     align-items: center;
     padding-left: 8px;
+    color: rgb(241, 241, 241);
 }
 
 .countries{
@@ -228,4 +230,175 @@ td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+}
+
+
+@media screen and (max-width: 1280px){
+    .headerBar{
+        width: 100%;
+        height: 12vh;
+        background:#fe5f0a;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .categorycontainer{
+        width:25%;
+        height: 70vh;
+        overflow: scroll;
+        background: white;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 21px;
+        padding: 10px 0;
+    }
+
+    .categoryinfo{
+        width: 72%;
+        height: 68vh;
+        background: white;
+        box-shadow: rgba(0, 0, 0, 0.30) 0px 5px 21px;
+        
+        border-radius: 15px;
+    }
+
+    .benchmarkbox{
+        width: 100%;
+        height: 62vh;
+        border: none;
+        overflow: scroll;
+    }
+
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        text-indent: initial;
+        border-spacing: 2px;
+    } 
+    
+    tr{
+        display: table-row;
+        vertical-align: inherit;
+        border-color: inherit;
+    }
+    
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 5.5px;
+    }
+
+    .listings{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .categorycontainer{
+        width:25%;
+        height: 68vh;
+        overflow: scroll;
+        background: white;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 21px;
+        padding: 10px 0;
+    }
+    
+    .category{
+        padding: 4px;
+    }
+    
+    .categorytitle{
+        font-weight: 600;
+    }
+    
+    .categorycontainer ul li{
+        list-style: none;
+        margin: 0 0 0 5%;
+    }
+    
+    .categorycontainer ul li a{
+        text-decoration: none;
+        transition: all 0.2s ease;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    
+    .categorycontainer ul li a:hover{
+        color: #fe5f0a;
+        text-decoration: none;
+    }
+    
+    .categorycontainer ul li a{
+        margin: 0 0 0 4%;
+        color: rgb(51, 51, 51);
+    }
+
+    .categoryitem .itemselected{
+        color: #fe5f0a;
+    }
+    .logospace{
+        width: 25%;
+        height: 17vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 0 0 2%;
+    }
+    
+    .logospace a{
+        font-size:30px;
+        text-decoration: none;
+        color:var(--black);
+        font-weight: 600;
+        text-shadow: 2px 2px 10px black;
+        color: #dddddd;
+        font-family: 'Lobster', cursive;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Montserrat Alternates', sans-serif;
+        
+
+    }
+    
+    .logospace p{
+        font-size: 14px;
+        font-weight: 350;
+        text-shadow: 0px 5px solid blue;
+    }
+    
+    .headermenu{
+        display: none;
+    }
+
+    .tabletitles{
+        width: 100%;
+        height: 6vh;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background:#fe5f0a;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 40px;
+        align-items: center;
+        padding-left: 8px;
+        color: rgb(241, 241, 241);
+        font-weight: 600;
+    }
+    
+    .countries{
+        width: 30%;
+    }
+    
+    .prodname{
+        width: 50%;
+    }
+    
+    .ranking{
+        width: 20%;
+    }
+
+
 }
